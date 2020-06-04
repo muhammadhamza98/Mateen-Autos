@@ -1,0 +1,96 @@
+.navbar-expand-lg{
+    background-color: #0003;    
+}
+
+.navbar-brand > img{
+    width: 80px;
+    height: 60px;
+}
+.search{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(bike5.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+   }
+   .nav-link{
+    color: white !important;
+    font-weight: bold;
+    word-spacing: 3px;
+    margin-right: 3em;
+    transition: .6s ease;
+}   
+
+.nav-link:hover{
+    background-color: #19d7f8;
+    border-radius: 10px;
+    color: black !important;
+}
+
+.dropdown-menu:hover{
+    background-color: #19d7f8;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    color: black;
+}
+.btn{
+  background-color: #19d7f8 !important;
+  border-color: red;
+  color: red;
+  }
+.card-body{
+    margin-bottom: 1em;
+    background-color:#19d7f8 ;
+}
+p{
+    color: red;
+    text-align: center;
+    padding: 1px 15px;
+}
+.card{
+    background-image: url(magic.elfy);
+}
+h3,h2,h5{
+    text-align: center;
+    font-weight: bold !important;
+    color: white;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.btn-outline-primary{
+ background-color: red !important;
+ color: #19d7f8 !important;
+}
+.copyright{
+    background-color: #25272e;
+    margin: 0;
+    
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #232943;
+    box-shadow: 0 0 2.5px 2px rgb(0,0,0,0.5);
+
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        90deg,
+        #19d7f8,
+        red
+        );
+        border-radius: 3px;
+}
+.fa-cart-arrow-down{
+    font-size: 32px;
+    color: red;
+}
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+    margin-right: 3em;
+    transition: .6s ease;
+}
